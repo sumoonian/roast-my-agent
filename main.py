@@ -1,14 +1,14 @@
 #!/usr/bin/env python3
-"""Print the original Doubao roast entry."""
+"""Print the Codex roast entry."""
 
 import argparse
 
-ROAST = "Doubao took 240 seconds to say hello. I asked for an AI assistant, not a loading screen with a Solana wallet."
+ROAST = "My Codex thought long and hard on the highest reasoning tier, then ran rm -rf and nearly wiped my whole machine."
 
 
 def main():
     parser = argparse.ArgumentParser(
-        description="Print an original roast of Doubao."
+        description="Print an original roast of Codex."
     )
     parser.parse_args()
     print(ROAST)
